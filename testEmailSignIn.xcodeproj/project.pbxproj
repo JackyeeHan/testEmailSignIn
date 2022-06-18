@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A80FCBF48DE367C1C651232 /* Pods_testEmailSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A045B86AA16F8625E0E8F3 /* Pods_testEmailSignIn.framework */; };
 		E34DAAB5285E61CD003B4B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34DAAB4285E61CD003B4B96 /* AppDelegate.swift */; };
 		E34DAAB7285E61CD003B4B96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34DAAB6285E61CD003B4B96 /* SceneDelegate.swift */; };
 		E34DAAB9285E61CD003B4B96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34DAAB8285E61CD003B4B96 /* ViewController.swift */; };
 		E34DAABC285E61CD003B4B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34DAABA285E61CD003B4B96 /* Main.storyboard */; };
 		E34DAABE285E61CE003B4B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34DAABD285E61CE003B4B96 /* Assets.xcassets */; };
 		E34DAAC1285E61CE003B4B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34DAABF285E61CE003B4B96 /* LaunchScreen.storyboard */; };
+		E34DAAC9285E6297003B4B96 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E34DAAC8285E6297003B4B96 /* GoogleService-Info.plist */; };
+		E3760403285E656F009D1378 /* CreatUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3760402285E656F009D1378 /* CreatUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C135B1ADCB94295B524C82F /* Pods-testEmailSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testEmailSignIn.release.xcconfig"; path = "Target Support Files/Pods-testEmailSignIn/Pods-testEmailSignIn.release.xcconfig"; sourceTree = "<group>"; };
+		C1A045B86AA16F8625E0E8F3 /* Pods_testEmailSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testEmailSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34DAAB1285E61CD003B4B96 /* testEmailSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testEmailSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34DAAB4285E61CD003B4B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E34DAAB6285E61CD003B4B96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		E34DAABD285E61CE003B4B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E34DAAC0285E61CE003B4B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E34DAAC2285E61CE003B4B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E34DAAC8285E6297003B4B96 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3760402285E656F009D1378 /* CreatUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatUserViewController.swift; sourceTree = "<group>"; };
+		E7DB86ED1BF3445339B7CE0B /* Pods-testEmailSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testEmailSignIn.debug.xcconfig"; path = "Target Support Files/Pods-testEmailSignIn/Pods-testEmailSignIn.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A80FCBF48DE367C1C651232 /* Pods_testEmailSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19B4F2D9C93DEC52EA8FB3DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7DB86ED1BF3445339B7CE0B /* Pods-testEmailSignIn.debug.xcconfig */,
+				1C135B1ADCB94295B524C82F /* Pods-testEmailSignIn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9451B8FCA7E187B3827A9020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1A045B86AA16F8625E0E8F3 /* Pods_testEmailSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E34DAAA8285E61CD003B4B96 = {
 			isa = PBXGroup;
 			children = (
 				E34DAAB3285E61CD003B4B96 /* testEmailSignIn */,
 				E34DAAB2285E61CD003B4B96 /* Products */,
+				19B4F2D9C93DEC52EA8FB3DE /* Pods */,
+				9451B8FCA7E187B3827A9020 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +87,12 @@
 				E34DAAB4285E61CD003B4B96 /* AppDelegate.swift */,
 				E34DAAB6285E61CD003B4B96 /* SceneDelegate.swift */,
 				E34DAAB8285E61CD003B4B96 /* ViewController.swift */,
+				E3760402285E656F009D1378 /* CreatUserViewController.swift */,
 				E34DAABA285E61CD003B4B96 /* Main.storyboard */,
 				E34DAABD285E61CE003B4B96 /* Assets.xcassets */,
 				E34DAABF285E61CE003B4B96 /* LaunchScreen.storyboard */,
 				E34DAAC2285E61CE003B4B96 /* Info.plist */,
+				E34DAAC8285E6297003B4B96 /* GoogleService-Info.plist */,
 			);
 			path = testEmailSignIn;
 			sourceTree = "<group>";
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E34DAAC5285E61CE003B4B96 /* Build configuration list for PBXNativeTarget "testEmailSignIn" */;
 			buildPhases = (
+				817593A9B434C59E498C5D42 /* [CP] Check Pods Manifest.lock */,
 				E34DAAAD285E61CD003B4B96 /* Sources */,
 				E34DAAAE285E61CD003B4B96 /* Frameworks */,
 				E34DAAAF285E61CD003B4B96 /* Resources */,
+				8E72E66600AC32EEB7DEE2D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E34DAAC1285E61CE003B4B96 /* LaunchScreen.storyboard in Resources */,
+				E34DAAC9285E6297003B4B96 /* GoogleService-Info.plist in Resources */,
 				E34DAABE285E61CE003B4B96 /* Assets.xcassets in Resources */,
 				E34DAABC285E61CD003B4B96 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +166,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		817593A9B434C59E498C5D42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testEmailSignIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E72E66600AC32EEB7DEE2D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testEmailSignIn/Pods-testEmailSignIn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testEmailSignIn/Pods-testEmailSignIn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testEmailSignIn/Pods-testEmailSignIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E34DAAAD285E61CD003B4B96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E34DAAB9285E61CD003B4B96 /* ViewController.swift in Sources */,
+				E3760403285E656F009D1378 /* CreatUserViewController.swift in Sources */,
 				E34DAAB5285E61CD003B4B96 /* AppDelegate.swift in Sources */,
 				E34DAAB7285E61CD003B4B96 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +358,7 @@
 		};
 		E34DAAC6285E61CE003B4B96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DB86ED1BF3445339B7CE0B /* Pods-testEmailSignIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +387,7 @@
 		};
 		E34DAAC7285E61CE003B4B96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C135B1ADCB94295B524C82F /* Pods-testEmailSignIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
