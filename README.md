@@ -1,1 +1,1 @@
-使用Firebase做Email創建帳號功能練習
+練習用Email創建帳號以及發送認證信件
