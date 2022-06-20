@@ -2,4 +2,4 @@
 
 主畫面
 
-![image](https://github.com/JackyeeHan/testEmailSignIn/blob/main/image1.png)
+![image](https://imgur.com/a/TJ10PCE)
